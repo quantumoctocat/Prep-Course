@@ -1,0 +1,14 @@
+---> Variables
+Son como "cajas" en las que podemos guardar valores. Estos valores son, principalmente, texto y números. Como con cualquier caja, a las variables las podemos "etiquetar"; es decir, ponerles nombres. Más adelante podremos usar estos nombres para manipular el contenido de esas cajas.
+
+---> Strings
+Son cadenas de letras, números y caracteres especiales (@, #, punto y coma, et cetera). Igual que las cadenas están formadas por eslabones unidos entre sí, podemos crear cadenas de letras, números y caracteres especiales. La mayor parte de las veces, esas cadenas representarán nombres de cosas conocidas como nombres de personas o números telefónicos, y en otras ocasiones serán nombres de cosas no tan evidentes como, por ejemplo, claves.
+
+---> Funciones (argumentos, return)
+Gracias a las funciones podemos evitar escribir 1 y otra vez líneas de código que hacen lo mismo. Por ejemplo, si necesitamos multiplicar 2 números que no siempre serán los mismos números, en lugar de repetir en varias partes de nuestro programa el código que toma 2 números y los multiplica entre sí, mejor escribimos 1 función que tome 2 números cualquiera y que los multiplique entre sí. Las funciones deben tener 1 nombre (por ejemplo, suma) y adelante de este nombre escribimos entre paréntesis los "argumentos", que nos son otra cosa que las variables o los valores que debemos usar adentro de la función. Cuando llegamos a la parte de la función que nos proporciona el resultado deseado, escribimos dicho resultado después de la palabra "return". Con esto, la función sabrá que hemos obtenido lo que queríamos y que ya podemos salir de dicha función.
+
+---> Declaraciones if
+Esta parte de los programas son las que usamos para saber si se realiza 1 cosa o si se realiza otra, dependiendo de algún valor. Por ejemplo, si el precio de algo es mayor a $100, entonces que se aplique 1 descuento del 10%; pero si el precio rebasa $50, entonces otorgar 1 descuento del 5%; de lo contrario, sólo otorgar 1 descuento del 2%
+
+---> Valores Booleanos
+Sólo pueden tener 1 de 2 valores: verdadero o falso. Se usan en situaciones que sólo pueden tener 1 de esos 2 valores. Son como 1 "if" siempre limitado a 2 posibilidades.
