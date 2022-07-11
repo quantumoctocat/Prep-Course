@@ -1,0 +1,12 @@
+---> for
+Imagina que te dejaran de tarea anotar todos los número enteros del 1 al mil :-(
+Ah, pero si tuvieras 1 libreta mágica en la que pudieras anotar lo siguiente:
+"Quiero que escribas en 1 línea por separado desde el número 1 hasta el número mil. Cada línea nueva debe tener 1 número entero exactamente mayor en 1 al de la línea anterior. Cuando llegues al número mil, detente".
+Sería más fácil, ¿cierto? ;-)
+Pues bien, eso es lo que hacen los ciclos "for" :-)
+
+---> &&, ||, !
+Creo que será más fácil, dado que tienes 12 años, si te lo explico con el siguiente ejemplo:
+(Primero con &&, que quiere decir "Y" ("And", en inglés)) "Si hoy es domingo y si terminaste toda tu tarea, puedes ir al cine".
+(Ahora ||, que quiere decir "O" ("Or", en inglés)) "Si hoy es domingo o si ya terminaste tu tarea, puedes ir al cine". Es decir, que no tiene que ser domingo para que puedas ir al cine, siempre que ya hayas hecho tu tarea :-P
+(Ahora !, que quiere decir "No") "No puedes ir al cine". En lenguaje de computadora y JavaScript, es como si tus papás te dijeran "! puedes ir al cine".
