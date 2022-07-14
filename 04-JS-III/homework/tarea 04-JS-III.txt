@@ -1,0 +1,19 @@
+---> Arrays
+Imagina que tienes guardados en 1 caja varios objetos como, por ejemplo, 1 moneda, 1 yoyo, 1 cómic, 1 fotografía y 1 lápiz. En lugar de referirte a dichos objetos por su nombre, como todos ellos están adentro de 1 caja podrías llamarlos de la siguiente manera:
+caja[0] <-- moneda
+caja[1] <-- yoyo
+caja[2] <-- cómic
+caja[3] <-- fotografía
+caja[4] <-- lápiz
+(Está genial que numeremos a esos objetos comenzando por el cero y no por el 1, ¿verdad? Y además usamos corchetes y no paréntesis).
+Esa manera de referirnos a los objetos es llamada "array", o arreglo.
+Ah, pero qué pasaría si adentro de esa caja hubiera 1 segunda caja con, digamos, otros 2 objetos: 1 papel, 1 trozo de cuerda. Bueno, como la segunda caja misma es en sí misma otro objeto de la primera caja, tenemos entonces lo siguiente:
+caja[0]    <-- moneda
+caja[1]    <-- yoyo
+caja[2]    <-- cómic
+caja[3]    <-- fotografía
+caja[4]    <-- lápiz
+caja[5]    <-- segunda caja
+caja[5][0] <-- papel
+caja[5][1] <-- trozo de cuerda
+Por suerte, en nuestro ejemplo no se nos ocurrió meter 1 tercera caja adentro de la segunda :-P
