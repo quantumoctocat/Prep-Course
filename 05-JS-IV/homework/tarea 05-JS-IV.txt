@@ -1,0 +1,38 @@
+---> Objetos y propiedades
+Para organizar de mejor manera la información que manejamos, existen en JavaScript los objetos. Supón que quieres organizar 1 lista de Pokemones. Qué mejor manera de hacerlo que de la siguiente manera:
+Nombre: Hypno
+Tipo: Psíquico
+Nombre: Squirtle
+Tipo: Agua
+Nombre: Pikachu
+Tipo: Eléctrico
+Et cetera.
+En JavaScript, podríamos entonces capturar a esos Pokemones de la siguiente manera:
+
+let misPokemones = [
+  {nombre: "Hypno",
+   tipo: "psíquico"},
+  {nombre: "Squirtle",
+   tipo: "Agua"},
+  {nombre: "Pikachu",
+   tipo: "Eléctrico"}]
+
+En este ejemplo, "nombre" y "tipo" serían las llaves, y "Hypno", "Psíquico", "Squirtle", et cetera serían las propiedades.
+
+---> Métodos
+Las propiedades son valores que están asociados con un objeto, como por ejemplo:
+nombre.length
+En este caso, "nombre" es el objeto y "length", la propiedad.
+
+---> Bucle for...in
+Ya hemos visto cómo funcionan los bucles for, pero lamentablemente no nos sirven si queremos recorrer todos los valores de 1 matriz o arreglo. Siguiendo con el ejemplo de los Pokemones, tendríamos que escribir lo siguiente:
+
+for (let clave in misPokemones) {
+  console.log(clave);
+  console.log(misPokemones[clave]);
+}
+
+---> Notación de puntos vs notación de corchetes
+Bueno, lo mejor será 1 ejemplo:
+misPokemones.tipo    <-- notación de puntos
+misPokemones["tipo"] <-- notación de corchetes
