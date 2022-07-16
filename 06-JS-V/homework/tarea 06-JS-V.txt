@@ -1,0 +1,16 @@
+---> prototype
+Imagina que tienes en casa 1 androide idéntico a ti, y que ese androide sabe hacer cosas que tú no sabes hacer como, por ejemplo, dibujar caricaturas.
+Pues bien, ese androide sería entonces tu prototipo o prototype al que podrías encender y encargarle o delegarle que por favor dibuje 1 caricatura de tu mejor amiga o amigo para regalársela.
+
+---> Constructors (de Clases)
+Algunas veces a JavaScript le gusta disfrazarse como lenguaje de programación orientado a objetos. Como parte de ese disfraz, JavaScript sustituye la palabra "function" por "class". Por ejemplo:
+
+class Poligono {
+  constructor(altura, anchura) {
+    this.nombre = 'Poligono';
+    this.altura = altura;
+    this.anchura = anchura;
+  }
+}
+
+let p = new Poligono(3, 4);
